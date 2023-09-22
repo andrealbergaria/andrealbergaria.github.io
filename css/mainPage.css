@@ -45,9 +45,10 @@
 
 p {
     font-family:Arial,Verdana,Calibri;
-    font-size:18pt;
-    left:500px;
-    
+    font-size:16pt;
+    text-indent: 50px;
+    text-align: justify;
+    margin-bottom: 0.5px;
 }
 
 
