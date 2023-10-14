@@ -17,18 +17,18 @@
 
 #secondTitle 
 {
-    position:relative;
-    top:30%;
-    left:14%;
 	font-family:"Liberation Mono, monospace";
 	font-size:20pt;
 	text-transform: uppercase;
+    position:relative;
+    left:4%;
 }
 
  
 #titles_class {
-    position:absolute;
-    left:30%;
+    position:relative;
+    left:33%;
+    margin-top:20px;
     
 }
  
@@ -88,7 +88,7 @@ p {
     
     
     
-}
+
 	
 #python_button:hover {
 	color : white;
@@ -103,12 +103,8 @@ p {
 #chooseLinks {
     
 	position:relative;
-	top:90px;
-	left: 430px;
-    
-    width:360px;
-    height:50px;
-    
+	left: 34%;
+    top:15px;
     
 }
 
