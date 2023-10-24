@@ -122,7 +122,8 @@ p {
 .references {
     font-family : Arial,Verdana,Calibri;
     font-size:15pt;
-    text-align: center;
+    position:relative;
+    left :4.5%;
     
 }
 
