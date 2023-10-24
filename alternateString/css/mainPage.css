@@ -122,13 +122,15 @@ p {
 .references {
     font-family : Arial,Verdana,Calibri;
     font-size:15pt;
-    margin-left:10px;
+    position:relative;
+    left:4.5%;
+    
 }
 
 .references_info {
     font-family : Arial,Verdana,Calibri;
     font-size:15pt;
-    margin-left:15px;
+    
 }
 
 
