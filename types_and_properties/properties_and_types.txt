@@ -1,0 +1,138 @@
+#WHAT ARE TYPES
+types are properties
+
+
+properties of man {gender,age,height,dna,color_of_skin}
+
+not every man is black, so it cant be a property of man
+
+types can't be properties...
+
+properties are the generalization of 
+
+properties of man {gender,age,height,dna,[black | caucassia | assiatic ]}
+
+color_of_skin is either black or caucassian or asiatic (logical OR)
+
+
+types of man = {black,caucasian,asian} or
+
+properties are the generalization of types? 
+types are the concretization of properties?
+
+types of human_beings = {male,female} 
+properties of humans_beings -> {gender}
+
+gender = male | female....
+
+so properties can be types (and types can be properties),
+where properties,are the logical OR of the corresponding type
+
+
+
+and types must have all the options refering to that property so types of man {male,female} this is gender..so types are properties
+
+what about types that are not finite?? 
+if they are infinite, we can't have properties...
+
+
+
+
+say i have type man, comes from property gender, gender can only be man | women
+
+property of a man (type man) could be gender, so properties of type man inherits the property of type human being
+
+so types and properites are sets 
+#END TYPES
+
+
+So a name/id distinguishes types? for example type = [male,female]
+
+if we have "Peter" , than that distringuish types....can a woman be called "Peter"? ,(is a math function)
+
+must id/name be unique ? (
+
+unique name -> same letters (for example "pedro" is unique to "pedro")
+
+For a) unique name "peter" -> "peter" -> male1   "peter" -> male2
+
+in a) , "peter" is unique because it has exactly the same letters
+ 
+b) name is associated with two objects , or a set of objects
+
+
+
+
+
+
+if we want unique ID'S , (check id_names_unique.odt ) we need to check if names 
+
+
+
+#JUST USE FUNCTION TO TEST NAME/ID -> OBJECT
+
+
+
+
+what about names that are the same for male/female ? one name/id to both types (not a function)
+
+"adrian" is a male/female name
+
+not unique (according to id_names_unique.odt) ,
+
+#IMPORTANT
+If the name/id is not unique, we can't use it  to distinguish types
+ ...else we can
+#END IMPORTANT
+
+Is name/id, an element from types?! [male,female] ...no males are not "andre"
+
+male = [age,name]
+
+name/id is general property (everything has names), if not we can't use it.
+, all stuff that dont have name, is infinite (check universe_infinite.odt), and is either unique or non unique (check id_names_unique.odt)
+
+everything has name/id.,they are either unique or non unique
+
+we are interessed in unique names...
+
+we can distinguish  everything that have unique names.... (check id_names_unique.odt)...for example properties or types 
+
+
+
+types =  [ {male} ,{female} ] -> subset of general humans 
+
+
+can a type, be two types? , yes
+	[male,female] -> type human  being
+
+
+	but [male,orange] isnt a type....
+
+so what makes a type? , interrelated types...like [female,male]
+
+
+every type has an name/id , because they can't be infinite (noname ...check id_names_unique.odt)
+
+what distinguish man type , from women type?!
+
+properties... women = [has breasts]
+
+can type be a object?
+if so, we can distinguish objects from properties...
+
+
+
+same ID ... same Type? 
+
+if ID is unique, then yes 
+if ID is not unique, no (check id_names_unique.odt)
+
+ID = "andre" ,refers to DOG, PERSON ... not unique....
+
+
+determinated ID,can have refer to two objects so ,its not unique 
+
+ID ="andre" refers to PERSON ...unique , can be used to distinguish....
+
+
