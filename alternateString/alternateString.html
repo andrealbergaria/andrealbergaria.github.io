@@ -1,0 +1,466 @@
+﻿
+<html>
+<title> Alternate String </title>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/mainPage.css">
+
+</head>
+
+<span style="font-size:15pt;margin-left:40%;color:#F23E3E"> Important </span>
+<div style="font-size:15pt;text-align:center;">
+If you want to use this, is obligatory to email me..contact me at 
+	<a href = "mailto: andrealbergaria@protonmail.com">andrealbergaria@protonmail.com</a>
+	i reserve all rights to this, even change license
+Thanks.
+</div>
+
+<body>
+
+<div id="titles_class">
+<div id="firstTitle">Using string as numbers</div>
+<div id="secondTitle">ALTERNATE_STRING</div>
+</div>
+
+
+<div id="chooseLinks">
+<a href="alternateString.html" id="theory_button">Theory</a>
+<a href="alternateStringPython.html" id="python_button" >Python Implementation</a>
+</div>
+
+
+<div id="indexDiv">
+
+<a href="#introduction" class="index">Introduction</a>
+
+<a href="#compareStrings" class="index">Compare strings</a>
+
+<a href="#length_logarithm" class="index">Calculate lenght of string (division) </a>
+
+<a href="#lengthPython" class="index">Calculate lenght of string  (bit count. Python only) </a>
+
+<a href="#lengthModulus" class="index">Calculate length of string (using modulus) </a>
+
+<a href="#concatChar" class="index">Concatenate one character </a>
+
+<a href="#concatStr" class="index">Concatenate string </a>
+
+<a href="#getCharAt" class="index" >Get char at position </a>
+
+<a href="#getSubstringAND" class="index" >Get substring method 1 (AND) </a>
+
+<a href="#getSubstringSubtraction" class="index">Get substring method 2 (subtraction) </a>
+
+<a href="#setSubstring" class="index">Set substring at position </a>
+
+<a href="#setChar" class="index">Set character at position</a>
+
+<a href="#auxFunctions" class="index">Auxiliary functions </a>
+
+<a href="#usefulness" class="index">Where can this be used </a>
+
+<a href="#TODO" class="index">TODO</a>
+
+<a href="#References" class="index" >References</a>
+
+
+</div>
+
+
+<div id="all_page" style="margin-top:100px;">
+
+
+
+<span id="introduction" class="spanned_topics">1) Introduction </span>
+<div>
+		<p>
+			This paper intends to use strings (in programming language, like in c or python) as numbers,making string operations very fast. </p>
+		<p> For example , strcmp , uses FOR cycles to check each character...in this paper, we use the equality operator.</p>
+		<p>
+			How do we do this? we use a positional system.
+		</p>
+		<p>
+			Decimal numbers (the ones we use on daily life), use a positional system of radix 10, each digit is multiplied by a base of ten. </p>
+	<p>
+	For example, the number 3212 is
+	</p>
+	<p style="text-align:center">
+		3*103  + 2*102 + 1*101 + 2*100
+	</p>
+	<p style="text-align:center">
+		3*1000 + 2*100 + 1*10 + 2*1 = 3212
+	</p>
+	<p>
+		For our purpose, we use a radix of 0x100 , because each letter (in ascii or utf-8), occupies two hexadecimal digits (each digit can be 16 values, for example A is 0x41 in ascii..two hexadecimal digits..meaning 16*16 = 0x100)
+	</p>
+	<p>
+		Assuming that 0xaa is a digit ,which should be the radix?
+		16*16 .. two hexadecimal digits ...0x100)
+	</p>
+	<p>
+		0xaa = 0xaa * 0x1003 
+	</p>
+	<p>
+		0xbb = 0xbb * 0x1002
+	</p>
+	<p>
+		0xcc = 0xcc * 0x1001
+	</p>
+	<p>
+		0xdd = 0xdd * 0x1000
+	</p>
+
+<p>So, 0xaabbccdd equals </p>
+
+<p>
+0xaa * 0x1003 + 0xbb * 0x1002 + 0xcc * 0x100 +0xdd * 0x1000
+</p>
+</div>
+
+<span id="compareStrings" class="spanned_topics">2) Compare strings</span>
+
+<div>
+<p>
+Just use equality of numbers...
+</p>
+<p>0xaabbccdd = 0xaabbccdd (true)</p>
+<p>0xaabbccdd = 0xaabbcc (false)</p>
+</div>
+
+
+
+
+<span id="length_logarithm" class="spanned_topics">3) Calculate length using logarithm 
+</span>
+
+<div> 
+<p>log(base=0x100) = 0xaabbccdd </p>
+
+<p>To calculate the logarithm with base equal 0x100, we use the following formula to get it</p>
+
+
+<p> log(base=10) 0xaabbccdd / log(base=10) 0x100 = 3</p>
+
+<p>We need to add 1 to 3, to get the length. Length is 4</p>
+
+</div>
+
+
+
+<span id="lengthPython" class="spanned_topics">4) Calculate length using bit count (python) 
+</span>
+<div>
+
+<p> Use int() function to assing type to number, then use bit_length on it. </p>
+</div>
+
+<span id="#lengthModulus" class="spanned_topics">5) Calculate length of string (using modulus) </span>
+	
+<div>
+<p> Use a modulus, and count the number of rounds.</p>
+	
+</div>
+<span class="spanned_topics" id="concatChar">6) Concatenate one character</span>
+<div>
+
+<p>auxiliar_number = 0xaabbccdd</p>
+<p>character to append = 0xaa</p>
+
+<p>
+We need to reserve zeros after the auxiliar_number, so we can add the byte (in this case is 0xaa). So we multiply by 100.</p>
+
+<p>auxiliar_number = auxiliar_number * 0x100 (AABBCCDD00)</p>
+<p>auxiliar_number +=  byte to append (EE)</p>
+<p>Gives us AABBCCDDEE , the concatenated byte</p>
+
+</div>
+
+<span class="spanned_topics" id="concatStr">7) Concatenate string </span>
+<div>
+
+<p>Same as concatenate one character, but instead of reserving only one zero, reserve more. Below we must reserve 2 bytes, so </p>
+
+<p>
+auxilizar_number = 0xaabbccdd
+</p>
+<p>
+For length = 2
+</p>
+<p>
+auxiliar_number = 0xaabbccdd * 0x100^length = 
+</p>
+<p>
+AABBCCDD0000
+</p>
+<p>
+bytes_to_append = 0xeeff
+</p>
+
+<p>
+auxiliar_number += 0xeeff (auxiliary_number= 0xaabbccddeeff)
+</p>
+</div>
+
+<span class="spanned_topics" id="getCharAt">8) Get char at position</span>
+<div>
+<p>
+auxiliary number = 0xaabbccdd
+</p>
+<p>We want to get character 0xcc.</p>
+
+<p>We can divide 0xaabbccdd /  0x0100 . We get 0xaabbcc.dd, so 0xcc is the character before the dot</p>
+
+<p>Another example</p>
+
+<p>For getting 0xbb, we would use 0xaabbccdd / 0x10000 = aabb.ccdd ...0xbb is the first character before dot</p>
+
+
+<p>Based on this, the math formula is the following </p>
+<p>
+For character 0xcc) </p>
+	<p> math.floor(auxiliary number / 0x0100) % 0x100 </p>
+
+<p>
+position 2 (is 0x100) </p>
+<p>
+For character 0xbb)</p>
+	<p> math.floor(auxiliary number / 0x010000) % 0x100 = 
+0xbb </p>
+ 
+<p>
+position 3 (is 0x10000)
+</p>
+
+
+</div>
+
+
+<span class="spanned_topics" id="getSubstringAND">9) Get substring method </span> 
+<div>
+<p>Using AND logical operator, we can eliminate the characters before the substring and after it and get the resultant string.
+</p>
+<p>
+For example:
+</p>
+
+<p>We want substring beggining at position2 and finishing at position 3 (substring of pos[3,4])</p>
+
+<p>
+auxiliar_number = 0xaabbccdd
+</p>
+<p>
+Two situations
+</p>
+
+<p>
+A) The substring is on the center of the string</p>
+<p>
+B) The last position of substring is the length of the string</p>
+
+<p>A) substring [position3,position4] </p>
+
+<p>
+auxiliar number = 0xaabbccddee</p>
+
+<p> 0xaabbccddee AND 0x0000ffff00 = CCDD00 </p>
+
+<p>Needs to shift right , so we throw way the initial zeros.</p>
+
+<p>How many bits ? </p>
+
+<p>Length of string  (in this case 5) minus last position of the substring (in thise case 4)  , equals one byte. Then shift that byte (8 bits).</p>
+
+<p>
+ For example
+</p>
+<p>
+1) auxiliar string = 0xaabbaaccddffeeffaa . Length = 9
+</p>
+<p>
+2)	substring = [position3,position4] . Last position 4.
+</p>
+
+<p>
+0xaabbaaccddffeeffaa AND 0x0000ffff0000000000 = </p>
+	<p>0xaacc0000000000</p>
+
+	<p>
+How many bytes we need to shift ? (to get rid of trailing  bytes)</p>
+<p>
+We have length of auxiliar string = 9</p>
+<p>Last position of substring = 4</p>
+
+<p>We do 9-4 = 5, so we need to shift 5 bytes to right (40 bits) to get 0xaacc</p>
+
+
+
+<p>
+auxiliar string = 0xaabbccdd
+</p>
+<p>
+0xaabbccdd AND 0x0000ffff = 0xccdd</p>
+
+</div>
+
+<span class="spanned_topics" id="getSubstringSubtraction">10) Get substring method 2</span>
+<div>
+
+<p>substring of pos[2,3]</p>
+<p>
+auxiliary string = 0xaabbccdd </p>
+<p>
+subtract the number from substring</p>
+
+<p>
+0xaabbccdd − aa0000dd = BBCC00 </p>
+<p>
+Needs to shift how many bits?</p>
+<p>
+length of auxiliary string = 4</p>
+<p>
+last substring position is = 3</p>
+<p>4-3 = 1 </p>
+<p>needs to shift 1 byte right (8 bits)</p>
+
+</div>
+
+<span class="spanned_topics" id="setSubstring" >11) Set substring at position </span>
+<div>
+
+<p>
+Examples</p>
+
+<p>
+original string = 0xaabbccdd
+</p>
+<p>
+substring = 0x1122
+</p>
+
+<p>
+#REMARK
+</p>
+<p> the initial position starts counting from zero (pos 0 ,first byte) </p>
+<p>
+#END REMARK</p>
+
+
+<p>
+length  of substring = end_position</p>
+<p>
+Given the original string, </p>
+<p>
+	original_string = 0xaabbccdd</p>
+	<p>mask1 = 00ffff00 (get bytes that need to be changed..in this case is 0xbbcc..we need  to change it to 0x1122) </p>
+
+	<p>
+	0xaabbccdd AND 00ffff00 = 00bbcc00. </p>
+
+	<p>
+We need to change 0xbbcc with 0x1122. So we xor 0x00bbcc00 with original_string to get zeros, on those positions (we will use OR to set bits...)</p>
+<p>
+	0xaabbccdd XOR 00bbcc00. We get
+	0xaa0000dd .
+	</p>
+<p>Now we OR ,0x00112200 , to it, and get the pretended string (0xaa1122dd)</p>
+</div>
+<span class="spanned_topics" id="setChar">12) Set char at position </span>
+<div>
+<p>
+Special case of substring where final position is one after the initial position
+</p>
+
+</div>
+
+
+<span class="spanned_topics" id="auxFunctions">13) Auxiliary functions</span>
+<div>
+<p>
+trailingZeros() function to get trailing zeros from number, using bitwise
+</p>
+<p>
+powerOptimised() function to get power of number, using bitwise
+</p>
+</div>
+
+<span id="usefulness" class="spanned_topics">14) Where can this be used?</span>
+<div>
+<p>On blobs (binary big object), e.g on git.</p>
+<p>Also on databases....</p>
+<p>On java, using BigInteger.</p>
+<p>On python (integers dont have fixed number of bytes)</p>
+</div>
+
+<span class="spanned_topics" id="TODO" >15) TODO</span>
+<div>
+
+<p>
+1) reverse string
+</p>
+<p>
+from 0xaabbcc get 0xccbbaa
+</p>
+<p>
+0xaa * 0x100^2 + 0xbb * 100^1 + 0xcc * 100^0
+</p>
+<p>
+swamp power 0f 0x100 </p>
+
+
+<p>0xaa * 0x100^0 + 0xbb * 100^1 + 0xcc * 0x100^2</p>
+
+<p>
+2) length of string </p>
+
+<p>
+Count set bits (check reference...bithacks), invert the number and count set bits...this will count zeros and ones.</p>
+
+<p>
+3) indexOf
+</p>
+<p>
+We have character = 0xbb ..and the formula
+</p>
+
+<p>
+0xaabbcc // 0x100^k % 0x100 ..k=1
+</p>
+<p>
+We need to calculate K for other numbers...
+</p>
+<p>
+4) lastIndexOf
+</p>
+<p>
+same as indexOf , starting counting from left , instead of right...
+</p>
+</div>
+<span id="References" class="spanned_topics">16) References</span>
+
+
+<div>
+<p class="references_info">
+Many bit operations..for example is word on number. (like substring, but just return true or false). He uses binary.
+</p>
+
+<a class="references" href="https://graphics.stanford.edu/~seander/bithacks.html#ValueInWord">https://graphics.stanford.edu/~seander/bithacks.html#ValueInWord</a>
+
+
+<p class="references_info">
+Got power using bitwise
+</p>
+
+<a class="references" href="https://www.geeksforgeeks.org/fast-exponention-using-bit-manipulation/"> https://www.geeksforgeeks.org/set-bits-given-range-number/ </a> 
+
+<p class="references_info">
+Used on substring_AND
+</p>
+
+<a class="references" href="https://www.geeksforgeeks.org/set-bits-given-range-number/"> https://www.geeksforgeeks.org/set-bits-given-range-number/ </a> 
+
+</div>
+
+<!-- END DIV ALL PAGE-->
+</div>
+</html>

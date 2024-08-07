@@ -1,0 +1,143 @@
+
+<html>
+<title> Alternate String </title>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/pythonCode.css">
+<link rel="stylesheet" href="css/mainPage.css">
+
+<style>
+#downloadCode {
+position:relative;
+left:16%;
+top:68%;
+font-family : Arial,Verdana,Calibri;
+font-size:15pt;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="titles_class">
+<div id="firstTitle">Using string as numbers</div>
+<div id="secondTitle">ALTERNATE_STRING</div>
+</div>
+
+
+<div id="chooseLinks">
+<a href="alternateString.html" id="theory_button">Theory</a>
+<span id="python_button" >Python Implementation</span>
+<a href="code/alternateString.py" id="downloadCode" download> download Python code</a> 
+</div>
+
+
+
+<div id="pythonImplementation">
+
+<pre><span></span><span class="kn">import</span> <span class="nn">Math</span>
+<span class="k">def</span> <span class="nf">compare</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span><span class="n">s2</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">s1</span> <span class="o">==</span> <span class="n">s2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+<span class="k">def</span> <span class="nf">length_division</span><span class="p">(</span><span class="n">s1</span><span class="p">):</span>
+    <span class="nb">len</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span><span class="mh">0x100</span><span class="p">)</span>
+    <span class="n">retValueRounded</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
+    <span class="n">retValueRounded</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">retValueRounded</span>
+
+<span class="k">def</span> <span class="nf">length_bitwise_python</span><span class="p">(</span><span class="n">s1</span><span class="p">):</span>
+    <span class="n">s_t</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">s_t</span><span class="o">.</span><span class="n">bit_length</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">b</span>
+
+<span class="k">def</span> <span class="nf">concatChar</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span><span class="n">char</span><span class="p">):</span>
+    <span class="n">str_aux</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">*</span> <span class="mh">0x100</span>
+    <span class="n">str_aux</span> <span class="o">+=</span> <span class="n">char</span>
+    <span class="k">return</span> <span class="n">str_aux</span>
+
+<span class="k">def</span> <span class="nf">concatString</span><span class="p">(</span><span class="n">originalString</span><span class="p">,</span><span class="n">stringToConcat</span><span class="p">):</span>
+    <span class="n">l</span> <span class="o">=</span> <span class="n">length</span><span class="p">(</span><span class="n">stringToConcat</span><span class="p">)</span>
+    <span class="n">num_aux</span> <span class="o">=</span> <span class="n">originalString</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="mh">0x100</span><span class="p">,</span><span class="n">l</span><span class="p">)</span>
+    <span class="n">num_aux_floor</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">num_aux</span><span class="p">)</span>
+    <span class="n">num_aux_floor</span> <span class="o">+=</span> <span class="n">stringToConcat</span>
+    <span class="k">return</span> <span class="n">num_aux_floor</span>
+
+<span class="k">def</span> <span class="nf">powerOptimised</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+
+    <span class="c1"># Stores final answer</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">last_bit</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">)</span>
+
+        <span class="c1"># Check if current LSB</span>
+        <span class="c1"># is set</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">last_bit</span><span class="p">):</span>
+            <span class="n">ans</span> <span class="o">=</span> <span class="n">ans</span> <span class="o">*</span> <span class="n">a</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">a</span>
+
+        <span class="c1"># Right shift</span>
+        <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="n">ans</span>
+
+
+<span class="k">def</span> <span class="nf">getCharAtPosition</span><span class="p">(</span><span class="n">originalString</span><span class="p">,</span><span class="n">position</span><span class="p">):</span>
+    <span class="n">auxNumber</span> <span class="o">=</span> <span class="n">powerOptimised</span><span class="p">(</span><span class="mh">0x100</span><span class="p">,</span><span class="n">position</span><span class="p">)</span>
+    <span class="n">varAux</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">originalString</span> <span class="o">/</span> <span class="n">auxNumber</span><span class="p">)</span>
+    <span class="n">varResult</span> <span class="o">=</span> <span class="n">varAux</span> <span class="o">%</span> <span class="mh">0x100</span>
+
+    <span class="k">return</span> <span class="n">varResult</span>
+
+<span class="k">def</span> <span class="nf">substring_AND</span><span class="p">(</span><span class="n">originalString</span><span class="p">,</span><span class="n">initial_position</span><span class="p">,</span><span class="n">end_position</span><span class="p">):</span>
+
+    <span class="n">lenOriginalString</span> <span class="o">=</span> <span class="n">length</span><span class="p">(</span><span class="n">originalString</span><span class="p">)</span>
+    <span class="n">lenSubstring</span> <span class="o">=</span> <span class="n">end_position</span> <span class="o">-</span> <span class="n">initial_position</span>
+
+
+    <span class="n">l</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">lenSubstring</span> <span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">8</span>
+
+    <span class="n">mask</span> <span class="o">=</span> <span class="p">(((</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">l</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">^</span>
+              <span class="p">((</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">r</span><span class="p">))</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+
+    <span class="n">mask</span> <span class="o">&lt;&lt;=</span> <span class="n">initial_position</span><span class="o">*</span><span class="mi">8</span>
+
+    <span class="n">substring</span> <span class="o">=</span> <span class="n">originalString</span> <span class="o">&amp;</span> <span class="n">mask</span>
+    <span class="n">substring</span> <span class="o">&gt;&gt;=</span> <span class="n">initial_position</span> <span class="o">*</span> <span class="mi">8</span>
+
+
+    <span class="k">return</span> <span class="n">substring</span>
+
+
+<span class="k">def</span> <span class="nf">setSubstring</span><span class="p">(</span><span class="n">originalString</span><span class="p">,</span><span class="n">substring</span><span class="p">,</span><span class="n">initialPosition</span><span class="p">,</span><span class="n">endPosition</span><span class="p">):</span>
+    <span class="n">lenSubstring</span> <span class="o">=</span>  <span class="n">endPosition</span><span class="o">-</span><span class="n">initialPosition</span> <span class="c1">#len for bytes..convert to bin (*8)</span>
+
+    <span class="k">if</span> <span class="n">length</span><span class="p">(</span><span class="n">substring</span><span class="p">)</span> <span class="o">!=</span> <span class="n">lenSubstring</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wrong, substring different from end_position - initial_position&quot;</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="n">maskOr</span> <span class="o">=</span> <span class="n">substring</span> <span class="o">&lt;&lt;</span> <span class="n">initialPosition</span><span class="o">*</span><span class="mi">8</span>
+
+    <span class="n">lenSubstringInBits</span>   <span class="o">=</span> <span class="n">lenSubstring</span> <span class="o">*</span><span class="mi">8</span>
+    <span class="n">mask</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">lenSubstringInBits</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+
+    <span class="n">shiftToBeginPosition</span> <span class="o">=</span> <span class="n">mask</span> <span class="o">&lt;&lt;</span> <span class="n">initialPosition</span><span class="o">*</span><span class="mi">8</span>
+
+
+    <span class="n">aux</span> <span class="o">=</span> <span class="n">originalString</span> <span class="o">&amp;</span> <span class="n">shiftToBeginPosition</span>
+    <span class="n">xor_result</span> <span class="o">=</span> <span class="n">aux</span> <span class="o">^</span> <span class="n">originalString</span>
+    <span class="n">result_or</span> <span class="o">=</span> <span class="n">xor_result</span> <span class="o">|</span> <span class="n">maskOr</span>
+
+<span class="k">def</span> <span class="nf">trailing_zeros</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">x</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">bit_length</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span>
+    
+</pre>
+</div>
+</bodY>
+</html>

@@ -1,0 +1,137 @@
+
+.spanned_topics {
+    font-family:Arial,Verdana,Calibri;
+    font-size: 18pt;
+    font-weight:bold;
+    display:block;
+    padding-bottom:2%;
+    padding-top:2%;
+    text-align: center;
+    
+}
+#firstTitle {	
+	font-family:"Liberation Mono, monospace";
+	font-size: 23pt;
+	font-weight:bold;
+	}
+
+#secondTitle 
+{
+	font-family:"Liberation Mono, monospace";
+	font-size:20pt;
+	text-transform: uppercase;
+    position:relative;
+    left:4%;
+}
+
+ 
+#titles_class {
+    position:relative;
+    left:33%;
+    margin-top:20px;
+    
+}
+ 
+.index { 
+    display: block;
+    
+    font-family:Aria,Verdana,Calibri;	
+	font-size:18pt;
+    padding-bottom:10px;
+    text-decoration-line:none;
+    
+}
+
+
+p {
+    font-family:Arial,Verdana,Calibri;
+    font-size:16pt;
+    text-indent: 50px;
+    text-align: justify;
+    margin-bottom: 0.5px;
+}
+
+
+#theory_button {
+   position:relative;
+   top:10px; 
+   left:10px;
+   border-style: solid;
+   border-width:1.5px;
+   border-color:black;
+   font-size:15pt;
+   font-family: "Verdana",serif,monospace;
+   padding-left:5px;
+   padding-right:5px;
+   padding-top:5px;
+   padding-bottom:5px;
+   text-decoration-line: none;
+}
+
+#python_button {
+	position:relative;
+	left:30px;
+	top:10px;
+	font-size:15pt;
+	 border-style: solid;
+   border-width:1.5px;
+   border-color:black;
+   font-size:15pt;
+   font-family: "Verdana",serif,monospace;
+   padding-left:5px;
+   padding-right:5px;
+   padding-top:5px;
+   padding-bottom:5px;
+   text-decoration-line: none;
+}
+   
+    
+    
+    
+
+	
+#python_button:hover {
+	color : white;
+	background-color:#3366ff;
+}
+
+#theory_button:hover {
+	color : white;
+	background-color:#3366ff;
+}
+
+#chooseLinks {
+    
+	position:relative;
+	left: 34%;
+    top:15px;
+    
+}
+
+#indexDiv {
+	position:relative;
+	top:60%; 
+    left:170px;
+    top:100px;
+    width:560px;
+    
+    
+    
+}
+
+.references {
+    font-family : Arial,Verdana,Calibri;
+    font-size:15pt;
+    position:relative;
+    left :4.5%;
+    
+}
+
+.references_info {
+    font-family : Arial,Verdana,Calibri;
+    font-size:15pt;
+    
+}
+
+
+
