@@ -1,0 +1,99 @@
+﻿
+<html>
+<title> Fast Permutations </title>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/fastPermutation.css">
+
+</head>
+
+<!--
+The idea is used exclusevly for commercial products, meaning you can modify or create some stuff based on this (for example, code a indexOf()..check "TODO"), but you cannot sell it or redistribute ,unless its solely for your company use. If you are interessed in buying or have some question , contact me at andrealbergaria@protonmail.com i reserve all rights to this, even change license (but if you pay, you have rights to use for ever) 
+-->
+<body>
+
+<div style="font-size:15pt;color:#F23E3E; text-align:center;"> Important </div>
+
+<div style="font-size:15pt;text-align:left;">
+If you want to use this, is obligatory to email me..contact me at 
+	<a href = "mailto: andrealbergaria@protonmail.com">andrealbergaria@protonmail.com</a>
+	i reserve all rights to this, even change license
+Thanks.
+</div>
+
+
+<div style="position:relative;top:25px;left:32%; font-size:15pt">
+
+<a href="fastPermutationsPython.html" >Python Implementation</a>
+<a style="position:relative;left:55px;" href="fastPermutationsC.html"> C Implementation </a>
+</div>
+
+
+<div id="mainDiv">
+
+<p style="position:relative;top:20%; ">
+	The objective is to permute all elements in a list or array (using python list or/and 
+	c arrays).
+</p>
+<p>In python, we just rotate the list, with line lst = lst[1:] + lstl[:1]..and keep iterating
+...
+</p>
+<p style="position:relative;top:3%;">
+In c language, we use the algorithm:
+</p>
+<p>
+<ol style="margin-left:10%">
+		<li>Save first byte.</li>
+		<li>For each byte, swamp values of next byte with before byte.</li>
+		<li> Set saved byte to first position</li>
+</p>
+
+</ol>
+		<p style="font-weight:bold;font-size:19pt;text-align:center">
+
+		Example
+		</p>
+		
+		<ol style="margin-left:10%">
+			<li>array[i] = 'a' , 'b', 'c'.</li>
+			<li> Save 'a'.</li>
+			<li>Swamp value of 'a' with 'b'.</li> 
+			<li>swamp value of 'b' with 'c'....etc</li>
+			<li>put first byte on the end position('c' position)</li>
+			keep iterating until all permutations are used..
+		
+		</ol>
+
+		
+</p>
+
+</div>
+
+<p style="text-align:center;font-size:19pt;font-weight:bold">
+TODO
+</p>
+
+<p>
+Make a java implementation
+</p>
+
+<p style="text-align:center;font-weight:bold;font-size:19pt;">
+References
+</p>
+
+<div style="position:relative;top:3px;font-size:14pt;">
+
+<ol>
+	<li style="padding-bottom:15px;" ><a  href="https://www.tutorialspoint.com/cprogramming/c_return_arrays_from_function.htm">"https://www.tutorialspoint.com/cprogramming/c_return_arrays_from_function.htm"</a></li>
+<li> <a href="https://stackoverflow.com/questions/111928/is-there-a
+-printf-converter-to-print-in-binary-format/3974138?noredirect=1#comment29671506_3974138">"
+https://stackoverflow.com/questions/111928/is-there-a-printf-converter-to-print-in-binary-format/3974138?noredirect=1#comment29671506_3974138" </a> </li>
+</ol>
+
+</div>
+
+</body>
+
+
+</html>

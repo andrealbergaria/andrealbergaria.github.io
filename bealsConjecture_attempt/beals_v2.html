@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Beal’s Conjecture Approach</title>
+  <style>
+    html {
+      line-height: 1.4;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin-top: 0;
+      margin-bottom:0;
+      margin-right: 0;
+      margin-left: 5.9cm;
+      
+      max-width: 36em;
+     
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 1.5em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+
+<h1 class="title" style="color:blue;  text-decoration-line: underline; text-align:center">Beal’s Conjecture Approach</h1>
+
+<div class="center">
+<p style="text-align:center"><span><strong>Problem</strong></span></p>
+</div>
+<div class="center">
+<p style="text-align:center">If <img style="vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAPBAMAAAD33ec3AAAAMFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAv3aB7AAAAD3RSTlMAmTJUdmYQ74nNq927RCLjefjKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkUlEQVQoFY1SPUvDQBh+WnPX1H4oCFJEJbMgFoq6SQYnFzOIFqQaEHQS9QcIEQsWdOhoF63gIJmKQzehgz+gIIK4mMFJhNZWxC7iXe7Oxk59h/f5eN8nlxwBWIUM1nrq9KMwXu/xmKRLefNV2TNpPEzMKiUwXkaiRcqa8d9er0O/o6VH3102qXX9JBZsuRexgG+rGvWkFqBXgUQzbI9ySXYcigs5z0lseEi2k8WIlBI2PUaKIBywFS2DViingMqtAfEacaaEKzv95MTBqr9sDha1TG1BzFTOxe499HReJgToXz7qc/wywkaoksgdy8tTuYNMdhLhkVu+OOayumEkVuMS0/PDrBNoTV/6TeaSP8CLB1S6E8aGnIDMFs5ULuS6JdflQ7LPtsx3YgYWmWMxOSAsmkaCPVyVPC9UAxoWWVG2wJjDcENwDUi2BOVd5mImcGJzg9Xf92lFtpwWJrsa2haUd5nbM0AOu65i54D4VfDWsfHc4e8tSuT0y9TRla28LmqpRa+rgkyeF7T64tt9beEXRS1Y+qLmU/MAAAAASUVORK5CYII=" alt="A^x + B^y = C^z" title="A^x + B^y = C^z" class="math inline" /></p>
+</div>
+<div class="flushleft">
+<p>, where A, B, C, x, y and z are positive integers and x, y and z are
+all greater than 2, then A, B and C must have a common prime factor.</p>
+</div>
+<div class="center">
+<p style="text-align:center" ><span><strong>Proof</strong></span></p>
+</div>
+<div class="center">
+<p><img style="position:relative;left:7cm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQcAAAARCAMAAADnjZmnAAAAQlBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACGKEuzAAAAFXRSTlMAmTJUdmYQ74nNq927RCKhscPZx9NGQGhdAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC3UlEQVRYCdVX2ZakIAwNsggqzsr//+oEEAhLod3VZ87pPBQoMTe5JIECSMKWNJuOendMa3bYqVZeVGLTQsAp8pvPTm6Ba4zPAi+Oo4eWM8vl1NVj88vWLSBxJubsyT3wpXFQxti55SksQAEeI2+KGPgAsDU0BuFwy5SETVhN7AE1Ht6vMRinJewKzEmV27lGDS/WASwKWGes/WD2nIFhiLww8vFz4FMsuKVZpFoxfPSzDUw2BXC6EPmJ6XMagDVbGExk1MUV1ASQA85UY97rncQv/xyFAA+RD0LyA+BkFkfCg+JgQr6rPbBRtFoeZIz8ODAuDUv4qGhXM+VTLIpPMan65IJtwA2g7V4I8AiZZvETYAJAeECHN9wzwfkBvHKt5WHDyJU9fISag86RErtpqh3ZItRWfecRw45RpXiyRoBHyDQdHgAnq34sPCyYiQwzwUqreZ2pLQ8r41xq5rlaGN9zCrMtS+ovO93XxfKVVnBwRLijyI8yXQdpRoAr5Aj86zfCPwcO6Omn8OB3RWAvG0jDw1Wl9qp85O61uOTXC5Xl8EfUUPqlBhgaZJoOcAfcQGYepEY5Oh4C08b4fc4RXVUKWPrnAXJWFuBy0g/j3XIXbfzyj2o3tKiwu1wd2fecHtlWjrwGtiXnsnO5LrBJoqQt9nMiTT6wmOunh5JzGmBP7I0OCoSwk3wwLXUUuEemFQi3wCQ8P035ELk802Ot1fCwR2W91ruF7SW3h5w8IpyWuH1tTBmh6g8/y16t1Z0oqE+B//wN6In3e+DsgZ9cgV9dXIULZaXgH2oeVPxGrnUz7b6KL0xwbHaLfHFe9G1yDlynA15XboGpx84Hc24uVKLFsZRMUat40Cb8udieXgwFwz8X1TFcDMfZw/vDHHhwHt8CJ0eUxsB1PvbS626seOhW337x/D45gbrqb6Lx/pJqG8H7Jr/aghzl8VeDfAN7/yMdvgEN9uVx9AHn/wENBRkaik4WCwAAAABJRU5ErkJggg==" alt="A^x + B^y = C^z \iff B^y \neq C^z -1" title="A^x + B^y = C^z \iff B^y \neq C^z -1" class="math inline" /></p>
+</div>
+<div class="center">
+<p style="text-align:center;font-size:13pt">Divide by <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANBAMAAABbflNtAAAAMFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAv3aB7AAAAD3RSTlMAmTJUdmYQ74nNq927RCLjefjKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAbklEQVQIHWNgAAJGBSABAfoGDJdlTcFsfwe2gCU3QEzW9AY2hnlgwWTOBQxsG9hAbAeuCSzGB+yALCYFxg28sc0XgExWBpYPIEkgiOjogTLZDBh4/0EEWRgY+D5BmEBb2D6Dma9+JjDc+hkAZAMApucXLIsfk7kAAAAASUVORK5CYII=" alt="A^x" title="A^x" class="math inline" /></p>
+</div>
+<div class="center">
+<p><img style="position:relative;left:8cm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAmCAMAAADJNfTqAAAAPFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo1xBWAAAAE3RSTlMAid2Zu0SrMu9mIlQQds3D2cfTfK1XBQAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAo1JREFUWAnFV+uWhCAIxtTK1Pbi+7/rgmZRapN7zuzyY1L8uCkiA4AkhiCFkErj2IwAfiLuLTk/Cu9h8eDWVZtb7LYoSau2UtsdrtAY8sIEBgYH67JBmx8zkI/osIbJgXRN4LEwBQvgDIxei8ydkwcBGcsKMGd+6yvQOSId6Ne8dJNQPni0CzyoJUTJhTwyAqYYPWEbZBIeV9FJMI7UvSLj5himG6L1CDcpQKVwJiwIdOyOHHmeCFUJ644Dy/zi6yyslDnWKrB5f0bkOK2itkna4UVaicDim7SdZWGmYKDuETdHGy1sTA1CzNJaI2R2A3filgbalz6aMBR51bsdr6ZTWxSYfRcbuin9Oony1sckZILb8UI8NvPSLIT9/mEePiIjkNTVrkz7thz67pUNOd5nFwhzJ/oX95NrHtLGipmlC1+/jj3dHqTlabhJ/4JliZNLczPvecZXa+M1BvysOqL8ds0clYeDxBqL83hf7LAQM/ISi3NOf8avDZcxrLSRGr97YtSAVd748Ayqwr9nTg9Kw++1tyXV/4R7vFxt196x8ufhypHo4xN/crF4R1wNne8IN9SJe6BPdxfuBLTaKd/VOzi3Uo77n71SRyeHzvfrm87478/3H8Kl3XnQPHVu4hke2+ozK862R6+y0pKoQIlVh8e2+tLOE9rkvKTJiVoSJ9AxacBTW31u50moHW5L4jB1GtXhqa3G6n/5j6JPbzVX1JLgGDauw7e2Glsh1s4zqXLYKdGAY0WitvrczpfGGKdTog7PbfW5nWdWimGnRANOOVu01YUtzuiUqMPrbTU3cx13StThjbb6aovNOyUa8PTMXdtqZqYYdkrU4fW2urDFGJ0SVXh/W90pUYf/APdlGeJjdLkmAAAAAElFTkSuQmCC" alt="\dfrac{B^y}{A^x} \neq \dfrac{C^z}{A^x} - \dfrac{A^x}{A^x}" title="\dfrac{B^y}{A^x} \neq \dfrac{C^z}{A^x} - \dfrac{A^x}{A^x}" class="math inline" /></p>
+</div>
+<div class="center">
+<p style="text-align:center;font-size:13pt">Cancel <img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANBAMAAABbflNtAAAAMFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAv3aB7AAAAD3RSTlMAmTJUdmYQ74nNq927RCLjefjKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAbklEQVQIHWNgAAJGBSABAfoGDJdlTcFsfwe2gCU3QEzW9AY2hnlgwWTOBQxsG9hAbAeuCSzGB+yALCYFxg28sc0XgExWBpYPIEkgiOjogTLZDBh4/0EEWRgY+D5BmEBb2D6Dma9+JjDc+hkAZAMApucXLIsfk7kAAAAASUVORK5CYII=" alt="A^x" title="A^x" class="math inline" /> from denominators</p>
+</div>
+<div class="center">
+<p><img style="position:relative;left:8cm;vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAARCAMAAAAL8WndAAAAPFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo1xBWAAAAE3RSTlMAid2Zu0SrMu9mIlQQds3D2cfTfK1XBQAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAbhJREFUOBG9VNlywyAMlMxlLvfg//+1ksBEdp0mmcl0HwwIsTotAAIuzSAa6/hwhVS1tFSPtcJRqBVOexNOAutZ4BrJI23r+d4X9SAu4hbSUrbNRXV1uQ0tM3k2Lg/dta8NIcJSYEvHd8GoM5ICwzWAUMBoT5TabVsb5aZE8NWhSFMT/sRupA1gvenKzirK2HVJToqUjJNnon/4xLKSFWKYQcTOby2/RwiS2tub4ZQICrvawa7GwkR/oWTYhK8sYpR0PZ2Ls0KEGXAydh4dHDZNj7ns9bhnkrg85aHmbCH3VKwm54hGDsHkZe8U4xkfn/TpWQdYOAM7gsurLusuV2sgLkNxuegw984fpXN7VehWQwcH1E0vgXuwUlMpjNIBlyVZiMdcusOxzb7n7tZwdmLqUCcQ7NGc6QlKQhVP1kBnj5K5R/e4JckX6hPCTFv3bun+46q7gK+4dl/fXL9ZuyrtT1k4B9epTt9OnHh8TJR+iuvlDDsGR3+PhPd4ljD96NoiY2XYw00Gpr8eD7/7vBoamA9/biJPvm2cL0frrZrD6p1l5O7O7bvF8Vm33mP4f4NzT/XfC5H9ADOrC0FJ0jMqAAAAAElFTkSuQmCC" alt="B^y \neq C^z - A^x" title="B^y \neq C^z - A^x" class="math inline" /></p>
+</div>
+<div class="center">
+<p style="text-align:center;font-size:13pt">Change <img style="vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANBAMAAABbflNtAAAAMFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAv3aB7AAAAD3RSTlMAmTJUdmYQ74nNq927RCLjefjKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAbklEQVQIHWNgAAJGBSABAfoGDJdlTcFsfwe2gCU3QEzW9AY2hnlgwWTOBQxsG9hAbAeuCSzGB+yALCYFxg28sc0XgExWBpYPIEkgiOjogTLZDBh4/0EEWRgY+D5BmEBb2D6Dma9+JjDc+hkAZAMApucXLIsfk7kAAAAASUVORK5CYII=" alt="A^x" title="A^x" class="math inline" /> to left hand side</p>
+</div>
+<div class="center">
+<p><img style="position:relative;left:8cm;vertical-align:middle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAARCAMAAAAL8WndAAAAPFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo1xBWAAAAE3RSTlMAmTJUdmYQ74nNq927RCLD2cfTOVwP2wAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAdRJREFUOBGtVNl2xSAIxLhEjdrF///XDhqNmtyenrY8JIrAwIASNRFbW337t0cW1ooQX1klNZ4Y5a1SNCthsGWJb5QiSj3a39bBsyrmjTRW6pakN4OLPkpaFj/jXLwiq4ysjCavoh3saXQu+r36ZKvpMOTSaIz1JgaFhQVLzDgwJHowbXagYLv664W1lAtAAhnJEe1D8LIMPSSRrrbQwxLbnpqR5ApJ5iigxbN8VjhdAUKAu6WtOF3WNFJjmLAqTJg2nSroPTJQUgaSPQk2XeE8AEwMHMhKsj0g20LG4mweKoW1aVOxoeECdUUdrZzZW+F2IaW2glPahDz6pAjP8vaOT+v9AQa6bFHura3cfYV2PsgCd7Yunl1BipOMxVFuuJMJNwESbnAlYec46+54to7QlhRIL1zGaZ/73PMd64I5gbSEu7oulupEJShxKL2i0cge0dGSvEaSY9aUEi7ugyxwRzW2+zgF7MZUfHwyE50KVcafKE3FnfNiyrNyA5zhTM1J7/M8nV5zcbhtpbzhLQG0z44zjfh3rgfQCc668mD663kYLKnN+aVTAg/mdK+us+fVBPds0rQnd237q79Zm/Qyin4i56X1nw/+o7ifJxGn+Xvh9wXB5AwBiAT9eQAAAABJRU5ErkJggg==" alt="A^x + B^y \neq C^z" title="A^x + B^y \neq C^z" class="math inline" /></p>
+</div>
+<p>André Albergaria Coelho</p><p> andrealbergaria@protonmail.com</p>
+</body>
+</html>
