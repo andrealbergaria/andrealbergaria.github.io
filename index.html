@@ -1,30 +1,77 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title> Projects </title>
-<div style="text-align:center;font-size:16pt;font-weight:bold"> Current Projects </div>
-<div style="position:relative;left:10px;margin-top:30px; font-size:14pt;">
-    <a href="alternateString/alternateString.html"> Alternate String </a>
-    Project that relates to fast string operations...cant be used on c, but can be used on Java (using BigInteger) , and in python
-    <p>
-    <a href="fastPermutations/fastPermutations.html"> Fast Permutations </a>
-    Very fast permutations calculator (c, or python..Java isnt yet coded, but its easy to port)
-    </p>
-    <p>
-    <a href="fermats/fermats_v1.html"> Approach to Fermat's Conjecture </a> Attempted solution to fermat's conjecture
-    </p>
-    <p>
-    <a href="blindPlus/blindPlus.html"> Ideas about acessilibity by blind people </a> Ideas for acessilibity of blind people
-    <p>
-    <a href="Null_Ideas/Null.html"> ideas about null pointers</a> Ideas about null pointer
-    </p>
-    <p>
-    <a href="types_and_properties/properties_and_types.txt"> Ideas about types and properties</a> Types and Properites
-    </p>		
-    <p>
-    <a href="Turing/turing.html"> Reflection about turing machine and functions </a>
-    </p>		
-    <p>
-    <a href="physics/zeroLaw/zeroLaw.html"> Zero law of physics </a>
-    </p>
-</div>   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CCA</title>
+</head>
+<body>
+
+
+  <div id="markdown-content">
+
+    ```
+    <h3 style="text-align:center;">Coelho Compression Algorithm 
+</h3>
+
+
+Ive made an algorithm that compresses data. The algorithm works like below
+
+Have a decompress data (say 1503022, which is equivalent of having some bytes)
+
+Base used was 10, but other bases are possible as well...
+
+Then subtract 
+
+$$1503022 - 1000000$$
+$$503022 - 500000$$
+$$ 3022 - 3000 $$
+$$ 22 - 20 $$
+$$ 2 - 2 $$
+$$ 0 $$
+
+make a list of subtraeeds
+[1000000,50000,3000,20,2]
+
+
+
+$1503022 = 1 \times 10^6 + 5 \times 10^4 + 3000 \times 10^3 + 2 \times 10^1 + 2$
+
+use the distributive law of math, and properties of exponent, meaning multiply numbers with same base, and different exponent is equal to base elevate to exponent1+exponent2
+
+So for a exponent example, i multiply
+$1 \times 10^6 \times (5 \times 10^{-2})$  , equals $5 \times 10^4$ ...which is the same element on list , 50000
+
+$1 \times 10^6 ( 5 \times 10^{-2} + 3 \times 10^{-3} + 2 \times 10^{-5} + 2 \times 10^{-6})$
+
+Why do i use the exponent law?
+
+because what's inside the parentsys, is a double number...so it only takes 8 bytes..
+
+So compressing uses
+
+first byte = 6
+8bytes = stuff inside parenthsys
+
+
+**This is copy right...**
+
+You can't code (use the idea to code), use this algorithm, distribute the algorithm for others, copied, use the same concepts in the same way, as in this algorithm.
+
+you can't use the algorithm on your code...
+you can't change little things ( like base of number choosen) on anything, and use it
+
+
+you need my explicit permission for the above...
+
+andrealbergaria@gmail.com
+
+
+
+
+
+    ```
+  </div>
+
+</body>
 </html>
