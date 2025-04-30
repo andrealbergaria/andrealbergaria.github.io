@@ -1,0 +1,109 @@
+<html>
+<head>
+<style> 
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 12pt;
+  text-align:center;
+}
+
+#title {
+	position: relative;
+	top:5%;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17pt;
+	font-weight:bold;
+	
+}
+#power {
+	position:relative;
+	left : 50px;
+	color:blue;
+	width:15%;
+}
+#question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	text-align:center;
+}
+
+#length {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	text-align:center;
+	text-weight:bold;
+	color:red;
+}
+
+#conclusion
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17pt;
+	text-align:center;
+	text-weight:bold;
+	text-decoration:underline;
+	color:red;
+	
+}
+
+
+</style>
+</head>
+
+<body>
+<div>
+<p id="title" >QUESTION</p>
+<p id="question" >do number of divisors indicate that a number is a power? apparently
+yes.</p>
+<p id="question" >If it has 3,5,7 divisors it will be power. checked on python program.
+needs proof.</p>
+
+</div>
+
+
+<p id="length" >Number of divisors 2 <span style="color:green"> primes 2,3,5,7</span></p>
+<p>number 2 divisors [1, 2] <span id="power"> power of 2</span></p>
+<p>number 3 divisors [1, 3] <span id="power"> power of 3</span></p>
+<p>number 5 divisors [1, 5] <span id="power"> power of 5</span></p>
+<p>number 7 divisors [1, 7]<span id="power"> power of 7</span></p>
+
+<p id="length">Number of divisors 3 <span style="color:green"> primes 2,3,5,7</span></p>
+<div id="align_p2">
+<p>number 4 divisors [1, 2, 4] <span id="power"> power of 2</span></p>
+<p>number 9 divisors [1, 3, 9] <span id="power"> power of 3</span></p>
+<p>number 25 divisors [1, 5, 25]<span id="power"> power of 5</span></p>
+<p>number 49 divisors [1, 7, 49]<span id="power"> power of 7</span></p>
+</div>
+
+<p id="length">Number of divisors 5  <span style="color:green"> primes 2,3,5,7</span></p>
+<div id="align_p2">
+<p>number 16 divisors [1, 2, 4, 8, 16] <span id="power"> power of 2</span></p>
+<p>number 81 divisors [1, 3, 9, 27, 81]  <span id="power"> power of 3</span></p>
+<p>number 625 divisors [1, 5, 25, 125, 625]  <span id="power"> power of 5</span></p>
+<p>number 2401 divisors [1, 7, 49, 343, 2401]  <span id="power"> power of 7</span></p>
+</div>
+<div id="align_p">
+<p id="length">Number of divisors 7</p>
+<p>number 64 divisors [1, 2, 4, 8, 16, 32, 64]<span id="power"> power of 2</span></p>
+<p>number 729 divisors [1, 3, 9, 27, 81, 243, 729]<span id="power"> power of 3</span></p>
+<p>number 15625 divisors [1, 5, 25, 125, 625, 3125, 15625] <span id="power"> power of 5</span>
+
+<p style="text-align:center; text-weight:bold; font-size:14pt;"> EXAMPLE</p>
+<p>divisors of 625, [1, 5, 25, 125, 625] number of divisors 4 (plus one)</p>
+<p>5^4 = 625. Number of divisors equals 4 (not counting one) and the prime factor is 5.</p>
+<p>(second factor on divisors of 625)</p>
+<p>For all numbers, if it has number of divisors 3, it will be a power. Same for number of divisors 5 and 7. </p>
+
+
+
+<p id="conclusion">if the number of divisors is prime, it will be a power. And the
+second factor is a prime.</p>
+
+<p>5^10 , 10 divisors </p>
+<p>5^10 = [1, 5, 25, 125, 625, 3125, 15625, 78125, 390625, 1953125,
+9765625]</p>
+<p style="color:green">For x,</p>
+<p>x^4 , it has 4 divisors , plus one divisors (one itself)</p>
+</body>
+</html>
