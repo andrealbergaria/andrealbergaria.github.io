@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Zero functions</title>
+
+<style>
+  p {
+    font-size : 15pt;
+    font-family : Helvetica,monospace,Verdano,sans serif;
+	
+  }
+ 
+#title {
+	display: block;
+	font-size:13pt;
+	font-family : Helvetica,monospace,Verdano,sans serif;
+	text-align:center;
+	font-weight:bold;
+}
+
+body{
+ margin-left: 33px;
+  margin-right: 20px;
+  }
+
+</style>
+
+
+</head>
+<body>
+<span id="title">Bolzano theorem</span>
+
+<p> *** Used Chat gpt  </p>
+<p> Let <em>f</em> be a continuous function on the closed interval [<em>a</em>, <em>b</em>], and suppose that 
+    <em>f(a)</em> and <em>f(b)</em> have opposite signs; that is, <em>f(a) &times; f(b) &lt; 0</em>. 
+    Then there exists at least one <em>c</em> in the open interval (<em>a</em>, <em>b</em>) such that 
+    <em>f(c) = 0</em>.
+</p>
+
+<div>
+<span id="title"> Problem</span>
+<p style="text-align:center">What if are there two zeros on  ]a,b[ ?!</p>
+
+<img src="images/zeros_on_graph.png" style="width:28%;height:28%;   display: block;  margin: 0 auto;">
+<br><br>
+<span id="title">Algorithm to calculate number of zeros</span>
+<br>
+<p> Start at interval [a,b], then consider interval [b,c], and so one, until determinate the number of roots of function.
+We do this by
+
+f(a) *  f(b) < 0 there is a zero
+f(b) * f(c)  <0 , another zero.
+
+</p>
+<span id="title">Examining f(x)</span>
+<p>
+f(a) * f(c) = zero. Either f(a), or f(c), or both are zeros.
+</p>
+<span id="title">How to calculate zeros of functions</span>
+
+<p>method 1)</p>
+<p>We put f(x) = 0. And then calculate the inverse function . </p>
+
+<p>method 2)</p>
+<p>as an example, having (x,0) (y coordinate is zero, meaning function will have a zero there), we use the following method</p>
+<br>
+<img src="images/y_zero.png" style=" display: block;  margin: 0 auto;">
+
+</body>
+
+</html>
