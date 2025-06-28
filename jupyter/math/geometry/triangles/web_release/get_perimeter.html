@@ -14042,8 +14042,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="rectangle_square.png" alt="rectangle R" width="300" height="150"/></p>
-
+<div style="text-align: center;">
+<img src="rectangle_square.png" alt="rectangle R" width="300" height="150"/>
+   </div>
 </div>
 </div>
 </div>
@@ -14065,9 +14066,11 @@ Formulas
 <p>$a^2 = b^2 + c^2$</p>
 <p><u> Formula for diagonal of square</u></p>
 <p>$side * \sqrt{2}$</p>
-<p><u> Formula for hipotenuse (diagonal) </u></p>
-<p>$L_{square} = \sqrt{ {(x_2 - x_1)}^2 + {(y_2 - y_1)}^2}</p>
-
+<p><u> Formula for hipotenuse (it's the diagonal) </u></p>
+<p>$L_{square} = \sqrt{ {(x_2 - x_1)}^2 + {(y_2 - y_1)}^2}$</p>
+<div style="text-align: center; font-size: 24px; font-weight: bold;">
+End Formulas
+</div>
 </div>
 </div>
 </div>
@@ -14078,11 +14081,9 @@ Formulas
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We need to get a formula, that relates diagonal of square, and diagonal of rectangle.</p>
-<p>Options</p>
-<p>a) calculate distance, and subtract difference,using Euclidean formula. 
+<div style="font-weight:bold; text-aling:center; font-size:20px;"> Options</div><p>A) calculate distance, and subtract difference,using Euclidean formula. 
 Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square and rectangle, is that rectangle , has a bigger height.</p>
-<p>b) use pythagoras theorem</p>
+<p>B) use pythagoras theorem</p>
 
 </div>
 </div>
@@ -14094,7 +14095,7 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div style="font-size:16pt;text-align:center">Option A</div>
+<div style="font-size:16pt;text-align:center">Option A (distance)</div>
 </div>
 </div>
 </div>
@@ -14144,7 +14145,7 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div style="font-size:16pt;text-align:center">Option B</div>
+<div style="font-size:16pt;text-align:center">Option B (pythagoras)</div>
 </div>
 </div>
 </div>
@@ -14163,7 +14164,7 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 <p>$ x = \sqrt{{base_{rectangle}}^2 + {height_{rectangle}}^2} - (side * \sqrt{2})$</p>
 <p>$ x = \sqrt{34} - (3*\sqrt{2})$</p>
 <p>$ x = 5.830951895 - 4.242640687$</p>
-<p>$ x = 1.588311208</p>
+<p>$ x = 1.588311208$</p>
 
 </div>
 </div>
@@ -14186,12 +14187,24 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="two_triangles_on_rectangle.png" width="50%" heigth="30%"></p>
-
+<div style="text-align: center;">
+<img src="two_triangles_on_rectangle.png" width="50%" heigth="30%">
 </div>
 </div>
 </div>
-</div><p>Partial from chat gpt...</p>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div style="text-align:center; font-size:20pt;  text-decoration: underline;">Partial from chat gpt...</div>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14213,9 +14226,9 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Triangle T_1</p>
-<p>H^2 = A^2 + D^2</p>
+<p>$H^2 = A^2 + D^2 $</p>
 <p>Triangle T_2</p>
-<p>H^2 = C^2 + B^2</p>
+<p>$H^2 = C^2 + B^2$</p>
 <p>Same hipotenuse.</p>
 
 </div>
@@ -14231,8 +14244,8 @@ Sum X to $L_{square}$ , and get $L_{rectangle}$. Only difference between square 
 <p>$\Theta_1 = \arctan(\frac{B}{C})$</p>
 <p>$\Theta_2 = \arctan(\frac{D}{A})$</p>
 <p>If we have the hipotenuse, we can calculate, any leg. We can use my formula.</p>
-<p>C^2 + B^2 = H^2</p>
-<p>So we have, C*B (area of T_1), and C^2 + B^2 = H^2.</p>
+<p>$C^2 + B^2 = H^2$</p>
+<p>So we have, C*B (area of $T_1$), and $C^2 + B^2 = H^2$.</p>
 <p>By using this system, we can know A,B,C and D.</p>
 
 </div>
