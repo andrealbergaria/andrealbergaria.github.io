@@ -1,0 +1,811 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="MPExBGhWWqYZNNCks7Lj">
+    <mxGraphModel dx="1686" dy="1886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-syQHD7jhQgVapmqe98F-15" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-290.5" y="1023" width="245.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-88" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="755" y="1663" width="121" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-86" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="756" y="1722" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-85" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="752.5" y="1606" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-84" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="747" y="1548" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-2" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="81" y="143.5" width="102" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-3" value="Fish" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="109" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-7" value="water" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="326" y="112" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-8" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="157" width="139" height="251" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-14" target="Rp38T7n0QzRovs813hIQ-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="311" as="sourcePoint" />
+            <mxPoint x="320" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-13" value="oceans" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="517.5" y="381" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-14" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="491" y="419" width="102" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-20" target="Rp38T7n0QzRovs813hIQ-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362.3529411764705" y="281" as="sourcePoint" />
+            <mxPoint x="533.6470588235295" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-20" value="cold waters" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="318.5" y="280" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-21" value="atlantic" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="508" y="452" width="68" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-27" value="\( \forall&amp;nbsp; waters, ==&amp;nbsp; oceans \) NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1771" y="33.25" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-28" value="\( \forall aguas \in oceanos&amp;nbsp; ? \) NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1758" y="86.25" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-29" value="if the order matters, we can use tuples instead of sets...&lt;div&gt;&lt;br&gt;&lt;div&gt;\( \text{sardinha} \in \text{agua, but agua} \notin \text{fish} \)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="61" y="530" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-33" value="NOT TRUE WE HAVE RIVERS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1763.5" y="139.25" width="204" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-35" value="intersect fishes with waters (fishes AND waters), can be coded, but it needs some meaning (what is intersect)...also we can code what is intersect on sets...related to common characterisitcs (relation belongs or AND set operator)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="326" y="733" width="334" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-39" value="inhabits" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="218" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-40" value="commutative depends on relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="41" y="611" width="231" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-42" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="578" y="129" width="111" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-43" value="IDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="596.5" y="56.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-58" value="&lt;font style=&quot;font-size: 15px; color: rgb(255, 0, 0);&quot;&gt;in this case, everything is a set (we can use concepts , like tables, matrices, objects, or other data that groups a concept)..it is a group of objects, (set itself is a object), that relate concepts, chosen by programmer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="973.25" y="-42.75" width="466" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-61" value="hot waters" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="309" y="213.25" width="95" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-69" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;special relations&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1052" y="55" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-71" value="\( \forall \) -&amp;gt; CONCEPT&amp;nbsp; ALL THINGS...for example ALL FISHES, or ALL relation1()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1047" y="122" width="267" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-74" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-61" target="Rp38T7n0QzRovs813hIQ-151" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="171" as="sourcePoint" />
+            <mxPoint x="465" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-75" value="id by" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="476.5" y="197.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-79" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133" y="-214" width="176" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-80" value="DBMS / sql set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-252" width="201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-81" value="belong(goldfish,cold_waters), generalization(cold_waters,atlantic))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1861" y="229.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-83" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="467" y="-194.5" width="125.5" height="185.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-87" value="sardine" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="97" y="173" width="70" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-93" value="VARIABLES" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366" y="-462" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-96" value="use" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="299" y="-414" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-97" value="NUMBERS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="256" y="-604" width="94" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-98" value="STRINGS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="441" y="-621" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-99" value="INTEGER" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="169" y="-729" width="82" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-100" value="FLOAT" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="296" y="-731" width="83" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.59;entryY=0.945;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-97" target="Rp38T7n0QzRovs813hIQ-99" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="-470" as="sourcePoint" />
+            <mxPoint x="338" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-103" value="isA , or /and belongs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-105" value="relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-219" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-106" value="parameter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-136" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-107" value="sets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-144" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-108" value="new relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-327" y="280" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-109" value="xyz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-308" y="318" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-111" value="choose the relation ourself" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-358" y="441" width="339" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-112" value="xyz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="196" y="-651" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-113" value="xyz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="334" y="-664" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-114" value="" style="endArrow=none;html=1;rounded=0;startFill=1;startArrow=classic;" parent="1" source="Rp38T7n0QzRovs813hIQ-97" target="Rp38T7n0QzRovs813hIQ-100" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="331" y="-826" as="sourcePoint" />
+            <mxPoint x="333" y="-695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-115" value="specify a relation, that states no relation, can be given a name ..nonrel for example" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1069" y="-188" width="365" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-117" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-97" target="Rp38T7n0QzRovs813hIQ-98" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="-579" as="sourcePoint" />
+            <mxPoint x="409" y="-629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-118" value="nonrel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="366" y="-611" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-119" value="ROWS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-345" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-120" value="COLUMNS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="632" y="-332" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-122" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-93" target="Rp38T7n0QzRovs813hIQ-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="344" y="-502" as="sourcePoint" />
+            <mxPoint x="394" y="-552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-123" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-93" target="Rp38T7n0QzRovs813hIQ-98" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="-493" as="sourcePoint" />
+            <mxPoint x="615" y="-543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-124" value="VARCHAR" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="438" y="-749" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-125" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-98" target="Rp38T7n0QzRovs813hIQ-124" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="583" y="-650" as="sourcePoint" />
+            <mxPoint x="633" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-126" value="isA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="491" y="-653" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-128" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-79" target="Rp38T7n0QzRovs813hIQ-83" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="-73" as="sourcePoint" />
+            <mxPoint x="425" y="-123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-129" value="has" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="356" y="-171" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-130" value="table A" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485.25" y="-96" width="89" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-131" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;TABLES&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="523.7542535400391" y="-216.99838104248045" width="73" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-132" value="table B" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485.25" y="-161" width="89" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-133" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-132" target="Rp38T7n0QzRovs813hIQ-119" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="-22" as="sourcePoint" />
+            <mxPoint x="438" y="-72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-134" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-132" target="Rp38T7n0QzRovs813hIQ-120" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="-224" as="sourcePoint" />
+            <mxPoint x="565" y="-274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-135" value="ATTRIBUTES" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="-450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-136" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-120" target="Rp38T7n0QzRovs813hIQ-135" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="642" y="-323" as="sourcePoint" />
+            <mxPoint x="692" y="-373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-139" value="are" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="648.5" y="-367" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-140" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-119" target="Rp38T7n0QzRovs813hIQ-93" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="257" y="-407" as="sourcePoint" />
+            <mxPoint x="307" y="-457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-141" value="A special row, exist, on relational database model, that indicates with attributes exist. This is a row. For example&lt;div&gt;| NAME | AGE | GENDER , each type of column has a type..for example NAME is VARCHAR&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="209.5" y="-857" width="373" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-142" value="Special ROW" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="463" y="-337" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-143" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-142" target="Rp38T7n0QzRovs813hIQ-119" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="-130" as="sourcePoint" />
+            <mxPoint x="725" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-144" value="subset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-332" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-145" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=0;" parent="1" source="Rp38T7n0QzRovs813hIQ-142" target="Rp38T7n0QzRovs813hIQ-135" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568" y="-186" as="sourcePoint" />
+            <mxPoint x="618" y="-236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-146" value="defined by" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="486" y="-375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-147" value="A set can exist, without any elements...it is empty" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1025.5" y="-295" width="385" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-151" value="names" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="601" y="243" width="64" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-152" value="numbers" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="598" y="195" width="71" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Rp38T7n0QzRovs813hIQ-153" value="if we want , we can program such that, every relation, uses a set." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1021" y="-240" width="471" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_-U_B0afjJT7cxt_BXq-10" value="for each relation, we can assign other verb forms, to be more language coherent, make natural language sentences, more close to reality" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1108" y="1779" width="333" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_-U_B0afjJT7cxt_BXq-13" value="RELATION has" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1208.5" y="1923" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-1" value="&lt;font style=&quot;font-size: 16px; color: rgb(255, 0, 0);&quot;&gt;this is a language that can define itself...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-333.25" y="60" width="301.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-12" value="name&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;weight&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;color&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;habitat&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1151" y="602.25" width="120" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-15" value="fish (e.g)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1188" y="553" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-16" value="goldfish,30kg, red, cold waters" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="784" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-28" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;(Output form is choosen by user)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="213" y="1268" width="246" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;graphs&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;tables&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;relation output&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;matrices&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="161.5" y="1372" width="337" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;several formats, like json / xml ..etc&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200.5" y="1443" width="274" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7rEwtx1wQTj_MMHd3wW-40" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779" y="1682" as="sourcePoint" />
+            <mxPoint x="846" y="1682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;No need to think in coding, meaning instructions, dont have to follow our thought, just assign a label/strings / names ..&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;like algorithm -&amp;gt; readsFile ,and we know it is a algorithm that reads a file..users will read it and think for themselfs&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="21" y="1067" width="577" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;e.g&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;on assembly systems&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;10101110 (no meaning whatsoever) we assign it , mov 3,eax..again no meaning...and programmers use it without meaning...in this case assigns 3 to eax..but could be any number&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="43" y="1158" width="535" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-3" value="catfish" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="227.75" width="59" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-4" value="if, on a relation we need to refer to a object, we can have an id... to apply relations to it ...just create set IDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1048.75" y="-345" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-7" value="So, we know that goldfish, habits on cold_waters, and those waters, are on atlantic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1761" y="290.25" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-23" value="&lt;font style=&quot;font-size: 17px; color: rgb(255, 0, 0);&quot;&gt;set is a data structure&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1129" y="-118.75" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-30" value="i want to create a special relation (ALL SETS), that refers to all sets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1718.5" y="-202.75" width="269" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-35" value="get all elements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1753" y="-148.75" width="184" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-36" value="iterate through relations of elements..if element has a unknown set, join it to buffer of sets" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1721.5" y="-114.75" width="257" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-37" value="in this case, we need iteration concept, concept of set, concept of buffer, add operation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1703" y="-72.75" width="298" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-40" value="elements can be sets, or subsets, or other thing (matrices,objects)..we can program it" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1727" y="1174" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OTHER SPECIAL RELATIONS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1047" y="176" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-42" value="You can program variables type and names..like int a;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1731" y="1038" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-46" value="special relations.like \(\forall \), can be coded... .concept of relation, can be programmed.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="1095" width="283" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-48" value="&lt;br&gt;&lt;div&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;388&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;56&quot;&gt;&lt;col width=&quot;138&quot;&gt;&lt;col width=&quot;183&quot;&gt;&lt;/colgroup&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Symbol&lt;/p&gt;&lt;/th&gt;&lt;th style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Name&lt;/p&gt;&lt;/th&gt;&lt;th style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Meaning&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;∃&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Existential quantifier&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;There exists&quot; (at least one)&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;∄&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Negated existential&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;There does not exist&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;¬&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Negation&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;Not&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;∧&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Conjunction&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;And&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;∨&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Disjunction&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;Or&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;⇒&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Implication&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;Implies&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;56&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;⇔&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;138&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;Biconditional&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border: none; padding: 0in;&quot; width=&quot;183&quot;&gt;&lt;p style=&quot;margin-bottom: 0.1in; line-height: 1.15px; background: transparent;&quot;&gt;&quot;If and only if&quot;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-bottom: 0in; line-height: 1px; background: transparent; font-size: medium; text-align: start;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1177" y="308" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-49" value="a programmer can choose, what relations, and sets, a user has access to" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1501.5" y="1682" width="339" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-50" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b style=&quot;&quot;&gt;special relations, are for the user to type less code...but can be programmed as well...&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="957.5" y="1522" width="706" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-51" value="isA&lt;div&gt;Generilzation&lt;/div&gt;&lt;div&gt;getID()&lt;/div&gt;&lt;div&gt;Specialization&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1193" y="441" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-53" value="variable relation (what is a variable, types, domain, operations allowed ..like addition)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1116.25" y="1400" width="323" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-54" value="artur_was_10_years old&lt;div&gt;artur has 11 years&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1153" y="1840" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-55" value="relation verb" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1122.5" y="2051" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-56" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3_-U_B0afjJT7cxt_BXq-13" target="TAfy3PQAtEMen2vf2EkD-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1352.5" y="2111" as="sourcePoint" />
+            <mxPoint x="1402.5" y="2061" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-57" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TAfy3PQAtEMen2vf2EkD-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1301.5" y="2205" as="sourcePoint" />
+            <mxPoint x="1068.5" y="2199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-58" value="past" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="991.5" y="2203" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-59" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TAfy3PQAtEMen2vf2EkD-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1317.5" y="2196" as="sourcePoint" />
+            <mxPoint x="1258.5" y="2197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-60" value="future" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200.5" y="2207" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-61" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3_-U_B0afjJT7cxt_BXq-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1398.5" y="2073" as="sourcePoint" />
+            <mxPoint x="1399.5" y="2054" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-62" value="relation easier to do phrases" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1351.5" y="2055" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-63" value="was" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1355.5" y="2175" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-64" value="will be" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510.5" y="2175" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-65" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TAfy3PQAtEMen2vf2EkD-62" target="TAfy3PQAtEMen2vf2EkD-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1417.5" y="2318" as="sourcePoint" />
+            <mxPoint x="1467.5" y="2268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-66" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="TAfy3PQAtEMen2vf2EkD-62" target="TAfy3PQAtEMen2vf2EkD-64" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1479.5" y="2368" as="sourcePoint" />
+            <mxPoint x="1529.5" y="2318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-67" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;security&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1630.5" y="1623" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-68" value="on sql, we can permit to allows, just some rows" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1513.5" y="1730" width="336" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-69" value="wether a user has access to the c function malloc()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1526.5" y="1772" width="304" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-71" value="control some TCP traffic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1534" y="1811.5" width="303.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-73" value="characteristics relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1065.25" y="517" width="311" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-75" value="set relations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1167.5" y="1295" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-76" value="union,intersection, difference, symmetric difference,complement, cartesian product, power set,sub sets....etc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1076.5" y="1345" width="409" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-77" value="a relation can be programmable or use below arrows" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="656.5" y="1455" width="341" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-78" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762.5" y="1557" as="sourcePoint" />
+            <mxPoint x="851.5" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-79" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="847" y="1625" as="sourcePoint" />
+            <mxPoint x="763" y="1623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762" y="1735" as="sourcePoint" />
+            <mxPoint x="864" y="1735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-87" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="762" y="1761" as="sourcePoint" />
+            <mxPoint x="864" y="1761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAfy3PQAtEMen2vf2EkD-90" value="many channels , all different channels" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="858" y="1722" width="306" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-2" value="relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-399" y="496" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-3" value="parameter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-293" y="491" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-4" value="new relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-506" y="496" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-5" value="or / and can be programmed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-278" y="191.5" width="211" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-6" value="is_son_of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-493.5" y="526" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-7" value="none used" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="526" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-8" value="to ease typing (isA() and belongs())" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-243.5" y="381" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-9" value="parameters , are always objects..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-379" y="580" width="307" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-10" value="person1,person2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-291" y="521" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-11" value="create new relation, from what weve got" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-317" y="135" width="280.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-15" value="meaning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-132.5" y="493" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-16" value="this relation indicates, if a person (must be father), has a child&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-198" y="523" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-27" value="relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-386.5" y="641" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-28" value="parameter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-280.5" y="636" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-29" value="new relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-493.5" y="641" width="97" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-30" value="isRed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-481" y="671" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-31" value="none used" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-387.5" y="671" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-32" value="colors" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-278.5" y="666" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-33" value="meaning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="638" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vM2L21UzkdjJerepW9iZ-34" value="this relation indicates, if a color is red" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-185.5" y="668" width="191" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-1" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-303.5" y="839" width="245.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-2" value="Compatible languages" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-361" y="733" width="219" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-3" value="ASM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-279" y="763" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-4" value="mov 123,eax" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-227.25" y="852" width="86.5" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-6" value="cmp eax,ebx" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-255" y="877" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-7" value="first set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-212.5" y="795" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-8" value="second set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-212.5" y="982" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-10" value="id #5&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;add 3,eax&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-233" y="1041" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-12" value="jne second set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-256" y="902.5" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-14" value="jmp third set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-278" y="928" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-16" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-603.5" y="1017" width="245.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-17" value="third set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-541" y="971" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-18" value="xor ebx,ebx" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-548" y="1037" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-19" value="add 1, ebx" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-506" y="1067" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-20" value="jmp final" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-517" y="1097" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-21" value="if we can use ASM, we can use any other language..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-496" y="1202" width="337" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-syQHD7jhQgVapmqe98F-22" value="we can consider, many scopes, like global (all sets),partial (some sets), one set, many / one /noned subsets..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-606" y="835" width="298" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-5" value="indian" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="504.13" width="68" height="21.75" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-6" value="everything that isnt referenced by anything, can be unloaded from memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="827" width="313" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-7" value="everything that does not has any dependable can be unloaded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="347.5" y="626" width="283" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-8" value="either call the garbage collector, on terminal, or on ide, or automatically, run it in a specified interval of time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="352" y="675" width="403" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-9" value="relations can contradict they&#39;re self, as long as user accepts it" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="694" y="509" width="358" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-14" value="goldfish" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="290.25" width="60" height="33.75" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-17" value="&lt;font style=&quot;font-size: 17px; color: rgb(0, 0, 255);&quot;&gt;PROGRAM 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1783" y="-260.75" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-19" value="&lt;font style=&quot;font-size: 17px; color: rgb(0, 0, 255);&quot;&gt;PROGRAM 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1792.5" y="-20.75" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-20" value="&lt;font style=&quot;font-size: 17px; color: rgb(0, 0, 255);&quot;&gt;PROGRAM 3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1812" y="183.25" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-22" value="use latex, on source code, as in \( \forall \) , or \( \overline{AB} \) or&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1658" y="1257" width="374" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-23" value="we use different verb, t make it more readable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="1884" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-24" value="many channels, inside one channel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="891" y="1670" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-26" value="&lt;font style=&quot;font-size: 17px; color: rgb(0, 0, 255);&quot;&gt;PROGRAM 4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1820.5" y="344.25" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-27" value="printText(&quot;ABC&quot;) ...we can choose the output..e.g either string, or graph with node text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1721.5" y="393.25" width="367" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-28" value="&lt;font style=&quot;font-size: 17px; color: rgb(0, 0, 255);&quot;&gt;PROGRAM 5&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1831.5" y="431.25" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-29" value="\( \exists \text{aguas that belong to oceano} = TRUE \)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="476.25" width="341" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-30" value="output boolean, or string...or json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1826" y="521" width="184" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-31" value="you can code, a set with&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;characteristics&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, and use that on objects&lt;/span&gt;&lt;div class=&quot;QmZWSe&quot;&gt;&lt;div class=&quot;DHcWmd&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1059" y="831" width="334" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-34" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1663.5" y="801" width="174" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-35" value="characteristics Object movement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1614" y="733" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-37" value="animals that can&#39;t walk" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1691.5" y="831" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-38" value="animals that walk" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1690.5" y="923.5" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-39" value="fish" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="992" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-41" value="belongs on set (or other set operations), belongs(water,ocean)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1061" y="881" width="308" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-42" value="humans" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1164" y="1084" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-58" value="common charactereistics&lt;div&gt;isAnimal(human) AND isAnimal(fish)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1128" y="1222.75" width="293" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-59" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1386" y="964.5" width="161" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-60" value="characterisitcs alive beings" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1364.5" y="916" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-61" value="animals" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1439.25" y="982" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-62" value="plants \( \notin \) dont belong" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1398" y="1031" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-63" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-39" target="N1sfHUTi9h683SfA-Inz-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1424" y="1020.8387096774195" as="sourcePoint" />
+            <mxPoint x="1596" y="1238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-64" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-42" target="N1sfHUTi9h683SfA-Inz-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1513" y="1219" as="sourcePoint" />
+            <mxPoint x="1563" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-67" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="1273" as="sourcePoint" />
+            <mxPoint x="1531" y="1172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-68" value="\( \notin \)&amp;nbsp; needs a lot of concepts..like math,set , etcetc..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1192.75" width="157" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-69" value="you can write \( \notin \) on set if you want" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="1249" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-70" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-61" target="N1sfHUTi9h683SfA-Inz-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1574" y="939" as="sourcePoint" />
+            <mxPoint x="1624" y="889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-71" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-61" target="N1sfHUTi9h683SfA-Inz-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1568" y="1060" as="sourcePoint" />
+            <mxPoint x="1618" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="N1sfHUTi9h683SfA-Inz-39" target="N1sfHUTi9h683SfA-Inz-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1253" y="991" as="sourcePoint" />
+            <mxPoint x="1303" y="941" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1456" y="871" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N1sfHUTi9h683SfA-Inz-74" value="is a binary relation injective? surjective? What more can i say, of relations regarding math?!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="63.5" y="701" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-4" value="symbols" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="598" y="146" width="71" height="41.25" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rp38T7n0QzRovs813hIQ-21" target="Rp38T7n0QzRovs813hIQ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319" y="558" as="sourcePoint" />
+            <mxPoint x="367" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-6" value="composes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="459" y="336" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-7" value="made of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="411" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-9" value="use math vectors?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="716" y="1802" width="233" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-10" value="\(&lt;div&gt;\sum_{k=1}^{n} 2k = 2 + 4 + 6 + \dots + 2n&lt;/div&gt;&lt;div&gt;\)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1751" y="1356" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-11" value="either have the same relation, or relate to the same object..." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1167" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-13" value="scope (mov 123,eax) , affects first set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="784" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-14" value="scope = just one instruction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="992" width="193" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-15" value="id(add 3,eax, #5)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-116.5" y="1252" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-16" value="\( \forall \) instruction&amp;nbsp; (on second set), add(id,instruction)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="1167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-17" value="e.g" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="1222" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-18" value="we can create scopes, with set operations, as in&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;myScope = \( {first\,\, set} \cup {second\,\, set} \)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="835" width="267" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.363;entryY=0.897;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="we2QAiLqrehzkISXXjHK-17" target="-syQHD7jhQgVapmqe98F-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-249" y="1320" as="sourcePoint" />
+            <mxPoint x="-199" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="N1sfHUTi9h683SfA-Inz-5" target="Rp38T7n0QzRovs813hIQ-151">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="754" y="430" as="sourcePoint" />
+            <mxPoint x="804" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="we2QAiLqrehzkISXXjHK-22" value="parameter can be any object (meaning everthing)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-630.5" y="724" width="287" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
