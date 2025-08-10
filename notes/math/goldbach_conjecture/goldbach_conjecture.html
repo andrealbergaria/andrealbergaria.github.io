@@ -1,0 +1,141 @@
+<html>
+<head>
+<title style="font-family:helvetica;font-size:16pt;"> GoldBach conjecture</title>
+<style type="text/css">
+      .liberation {
+         font-family: "Liberation Serif";
+         font-size:16pt;
+      }
+      .helvetica {
+      	font-family : helvetica;
+         font-size: 16pt;
+      }
+      
+      .liberation.medium {
+      	font-size:13pt;
+      	font-weight:bold;
+      }
+      .liberation.smaller {
+         font-size:11pt;
+      }
+      
+      .helvetica.smaller {
+	      font-size:13pt;
+      }
+      p {
+      	font-size:13pt;
+      	font-family:helvetica;
+      }
+      .author {
+ 	 font-family: "Georgia", "Times New Roman", serif;
+	  font-size: 1.1em;
+	  font-weight: bold;
+	}
+	.email {
+	  font-family: "Courier New", Courier, monospace;
+	  font-size: 0.95em;
+	  }
+	.center-text {
+ 		 text-align: center;
+	}
+
+      body {
+      line-height: 1.4;
+      margin: 10cm;
+      margin-top:1cm;
+      }
+      
+        table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:70%;
+  }
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center; /* centers content horizontally */
+  }
+   </style>
+</head>
+<body>
+<p class="helvetica center-text"> GoldBach Conjecture</p>
+<p class="liberation center-text">Every even integer greater than 2 can be written as the sum of two primes</p>
+
+<p class="liberation smaller center-text" > Just using parity rules , to know which values are ok. So valid numbers are even+even, and odd+odd</p>
+
+<table style="center-text">
+	<tr>
+		<td>A</td><td>B</td><td>A + B </td>
+	</tr>
+	<tr>
+		<td>Even</td><td>Odd</td><td>Odd</td>	
+	</tr>
+	
+	<tr>
+		<td>Odd</td><td>Even</td><td>Odd</td>	
+	</tr>
+	
+	<tr>
+		<td>Even</td><td>Even</td><td>Even</td>	
+	</tr>
+	<tr>
+		<td>Odd</td><td>Odd</td><td>Even</td>	
+	</tr>
+</table>
+<p class="helvetica smaller">So , we only want even+even, or odd+odd, because those are the ones that summed give even. </p>
+<p>Suppose even number 12.</p>
+<p> We start by, </p>
+<p>12 = 11 + 1. </p>
+
+<p>Then subtract 1 to 11, and add one to 1 ...we get </p>
+
+<p>12 = 10 + 2</p>
+
+<p>Subtract 1 to ten and add one to 2</p>
+
+<p>12 = 9 + 3</p>
+
+<p>12 = 8 + 4 </p>
+
+<p>12 = 7 + 5</p>
+
+<p>and keep doing that, until we get</p>
+
+<p>12 = 6 + 6 (the same summand..after this it repeats the sequences)</p>
+
+<p>e.g, next sequence is, </p>
+
+<p>12 = 5+ 7</p>
+
+<p>It has already been verified. </p>
+
+<p class="liberation medium center-text">Other information</p>
+
+<p>2k = sum of two equal numbers</p>
+
+<p>2k = k + k</p>
+
+<p>If k is prime, then conjecture holds...</p>
+<p>2*3 = 3+3 (holds)</p>
+<p>2*4 = 4+4 (needs further examining)</p>
+<p>2*5 = 5+5 (holds)</p>
+<p>2*6 = 6+6 (needs further examining)</p>
+<p>2*7 = 7+7 (holds).</p>
+<p>2*9 = 9+9 (needs further examining)</p>
+
+<p>2*4 =   2+2+2+2</p>
+<p>2*6 =   2+2+2+2+2+2</p>
+<p>2*8 =   2+2+2+2+2+2+2+2</p>
+<p>2*10 = 2+2+2+2+2+2+2+2+2</p>
+
+<p>always increment 4 each round...</p>
+<br>
+<p class"author">André Albergaria Coelho</p>
+<p class="email"> andrealbergaria@gmail.com</p>
+
+
+	
+
+</body>
+</html>
