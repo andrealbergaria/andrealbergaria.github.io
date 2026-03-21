@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="YFMMv1WgCPxobtwKU1Z9">
+    <mxGraphModel dx="836" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Electric&amp;nbsp; force , is given by&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="149" x="283" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;\( \overrightarrow{F_{electric}}&amp;nbsp; = k * \frac{q1q2}{r^2} \cdot \hat{r}\)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="257" x="221" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;\( \hat{r} = \frac{\overrightarrow{r}}{| \overrightarrow{r} | } \)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="171" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="how to calculate \( \overrightarrow{r} \), since that is not present on equation that determinates electric force?" vertex="1">
+          <mxGeometry height="30" width="421" x="158" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;Considering \( \hat{r} \) formula" vertex="1">
+          <mxGeometry height="30" width="165" x="267" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Are k, q1 , q2 and r, scalars?" vertex="1">
+          <mxGeometry height="30" width="340" x="198.5" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="-wtq0peFs1Z12mf8KI-7-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Question regarding electric force" vertex="1">
+          <mxGeometry height="30" width="240" x="234" y="105" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
