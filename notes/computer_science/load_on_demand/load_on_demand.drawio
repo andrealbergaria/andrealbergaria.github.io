@@ -1,0 +1,148 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="fvK3ZDlQfwubKh84Prwb">
+    <mxGraphModel dx="784" dy="1853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="34" width="120" x="403.25" y="-787" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="34" width="120" x="162.25" y="-785" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kernel space (mappings)&amp;nbsp;" vertex="1">
+          <mxGeometry height="69" width="120" x="185.5" y="-267" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Process space (user space)" vertex="1">
+          <mxGeometry height="60" width="120" x="185.5" y="-198" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="On process 1 and 2, the kernel space, is part of process address space. Why do we call it kernel space? Usually kernel space, is where you load / execute instructions, that are used / belong to kernel. Also , kernel space, is different either we use process addresses kernel space, or use the actualy kernel reserved memory. If you access the kernel space on process address space, youre accessing both&amp;nbsp; process memory, and kernel memory. So on processes instead of using kernel space, use pointers to actualy kernel memory? Not using kernel space on process, frees a lot of address space..." vertex="1">
+          <mxGeometry height="30" width="536" x="79.75" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Process 1 address space" vertex="1">
+          <mxGeometry height="30" width="183" x="159.5" y="-309" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Real kernel memory area (should be shared)" vertex="1">
+          <mxGeometry height="60" width="120" x="408.5" y="-89" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-26" edge="1" parent="1" source="vZdKvlcUHhhbrESE6Tve-21" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="335.5" y="-16" as="sourcePoint" />
+            <mxPoint x="406.5" y="-61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Process 2 address space" vertex="1">
+          <mxGeometry height="30" width="183" x="375.5" y="-314" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kernel space (mappings)" vertex="1">
+          <mxGeometry height="69" width="120" x="396.5" y="-267" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-72" edge="1" parent="1" source="vZdKvlcUHhhbrESE6Tve-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="456.5" y="-93.37703704833984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Process space (user space)" vertex="1">
+          <mxGeometry height="60" width="120" x="396.5" y="-198" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px; color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;Why use kernel mappings on process address space?&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="437.5" x="133" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="So&amp;nbsp; process 1, calls int 0x80. Will it run code on process address space? Its ambiguous..it runs on process address space, and also on kernel memory?&lt;div&gt;Can int 0x80 use actual reserved kernel memory? Different from accessing from the process addres space? Shouldnt that be supposed to happen?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="437" x="162.25" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Running app" vertex="1">
+          <mxGeometry height="30" width="119" x="158.25" y="-785" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="134" x="158.25" y="-738.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="On Diagram 1, we use c syntax (a++), and natural language as an example..." vertex="1">
+          <mxGeometry height="30" width="236" x="220.75" y="-568" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Loader" vertex="1">
+          <mxGeometry height="30" width="60" x="437.5" y="-783" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-46" edge="1" parent="1" source="vZdKvlcUHhhbrESE6Tve-68" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="vZdKvlcUHhhbrESE6Tve-45" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="285.25" y="-707" as="sourcePoint" />
+            <mxPoint x="335.25" y="-757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-47" connectable="0" parent="vZdKvlcUHhhbrESE6Tve-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="calls loader" vertex="1">
+          <mxGeometry relative="1" x="-0.1457" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="For the loader, you need a protocol to specify&lt;div&gt;-what to load&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-how&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="326" x="178.25" y="-496" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-51" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;line-height: 100%; margin-bottom: 0in&quot;&gt;&lt;br&gt;Everything should be loaded (into RAM), only when it&#39;s required. If&lt;br&gt;an event (generally speaking)&amp;nbsp; occurs, you can load more data (if needed). For example, we mount only the USB drives (or any other filesystem), only when we want. They are not all of them , mounted. This is a good example, of loading only stuff&amp;nbsp; when we need. On mounting, user is responsible, for&lt;br&gt;loading.  Should stuff be loaded automatically?&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="400" x="147.75" y="-997" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;line-height: 100%; margin-bottom: 0in&quot;&gt;&lt;br&gt;There might be performance issues...less memory used though.&lt;/p&gt;" id="vZdKvlcUHhhbrESE6Tve-52">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="58" width="392" x="185.5006719970703" y="758.9950515747071" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Protected mode, already, does, if data is not on memory, raises a page fault. (that means to load page into memory). Can we access protected mode (the system, not just protected mode), to check which function is loaded, and what is its address?&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="428" x="178.25" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="logistics problem (related to performance, and stalls or crashes), Many functions inside function calls?&amp;nbsp; Just wait for all,or just some, to return.&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="410" x="175.75" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="How much RAM we need, per process (or by other construct), to run a app, using demand / load, as in , load only functions that are called? At one time, how much data we have present at RAM ? (using function demand/load)? 10kb ? 30kb?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Depends, on function? , let the user choose? Again performance issues. On loader, can we set buffers limits? or just load part of buffer, or load any function we want.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="487" x="159.5" y="561" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="If, we have 30kb of process address space, can we increase the address space by ways of kernel, or others? We just need to stop process, create a new process with different address space." vertex="1">
+          <mxGeometry height="30" width="465" x="162.5" y="714" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Also, if you use load on demand, its easier to store the previosous state, and stop / resume it , since we are running one function at a time...so, new process context switch?" vertex="1">
+          <mxGeometry height="30" width="506" x="156" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Will interrupts be easier / faster with load / demand functions?" vertex="1">
+          <mxGeometry height="30" width="370" x="185.5" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 15px;&quot;&gt;Load/demand using functions&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="279" x="201.75" y="-1031" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagram 1" vertex="1">
+          <mxGeometry height="30" width="60" x="311.25" y="-854" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-68" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="run func1" vertex="1">
+          <mxGeometry height="66" width="66" x="192.25" y="-693" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="a++;" vertex="1">
+          <mxGeometry height="30" width="60" x="195.25" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-70" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;Loads func1 into memory.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="134" x="403.25" y="-738.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 15px;&quot;&gt;Process address space and kernel space&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="319" x="196.75" y="-401" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="According to chat GPT,&lt;div&gt;&quot;This design avoids changing page tables on every system call or interrupt, which was historically expensive because it required flushing the TLB.&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="382" x="176.5" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="With this system (load on demand), possibliy, there wont be too costly, to put / take pages into&amp;nbsp; / , out of memory" vertex="1">
+          <mxGeometry height="30" width="324" x="213.25" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px; color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;RAM needed&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="387" x="162.75" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="vZdKvlcUHhhbrESE6Tve-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px; color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;Impact&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="387" x="150.25" y="646" as="geometry" />
+        </mxCell>
+        <mxCell id="VoFqeInAlwDBL9GK5jSa-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="For linux usage, this is under GPL. For other systems, you must contact me. andrealbergaria@gmail.com" vertex="1">
+          <mxGeometry height="30" width="277" x="181" y="-1104" as="geometry" />
+        </mxCell>
+        <mxCell id="VoFqeInAlwDBL9GK5jSa-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagram 2" vertex="1">
+          <mxGeometry height="30" width="60" x="301" y="-352" as="geometry" />
+        </mxCell>
+        <mxCell id="VoFqeInAlwDBL9GK5jSa-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Better multitasking ? Faster switching processes?" vertex="1">
+          <mxGeometry height="30" width="256.5" x="266.75" y="1088" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
